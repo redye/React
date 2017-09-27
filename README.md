@@ -44,15 +44,3 @@
   pod 'React/RCTAnimation', "#{react_version}"
 
 ```
-
-## Author
-
-吴仕海, suhayl.wu@weimob.com
-
-## License
-
-WFWebView is available under the MIT license. See the LICENSE file for more info.
-
-
-##参考链接
-[论 iOS 开发中 JS 与 Native 的交互方式](http://www.jianshu.com/p/6da16d9e8eef)
