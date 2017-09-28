@@ -1,0 +1,32 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+source 'https://github.com/CocoaPods/Specs.git'        #官方仓库地址
+
+target 'React' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for React
+  pod 'React', :path => '../'
+  pod 'Yoga', :path => '../ReactCommon/yoga'
+  pod 'React/RCTImage', :path => '../'
+  pod 'React/RCTNetwork', :path => '../'
+  pod 'React/RCTText', :path => '../'
+  pod 'React/RCTWebSocket', :path => '../'
+  pod 'React/RCTAnimation', :path => '../'
+  pod 'React/DevSupport', :path => '../'
+
+  
+
+  target 'ReactTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ReactUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
