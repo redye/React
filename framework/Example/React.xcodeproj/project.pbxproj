@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		413A6167C5D5DEB39056B63D /* Pods_ReactTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04A50D036721EC8C51D3659 /* Pods_ReactTests.framework */; };
 		5CAE1887F55FA62BD8265EB4 /* Pods_ReactUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1318E46387115577BEA060 /* Pods_ReactUITests.framework */; };
+		D15F257C1F7E22130017DD44 /* NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F257B1F7E22130017DD44 /* NativeViewController.m */; };
+		D15F257F1F7E22240017DD44 /* ReactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F257E1F7E22240017DD44 /* ReactViewController.m */; };
+		D15F25871F7E26CC0017DD44 /* YHCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F25861F7E26CC0017DD44 /* YHCarouselView.m */; };
+		D15F25A81F7E2C2E0017DD44 /* IMG_0010.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D15F25891F7E2C2E0017DD44 /* IMG_0010.JPG */; };
+		D15F25A91F7E2C2E0017DD44 /* IMG_0021.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D15F258A1F7E2C2E0017DD44 /* IMG_0021.JPG */; };
+		D15F25AA1F7E2C2E0017DD44 /* IMG_0023.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D15F258B1F7E2C2E0017DD44 /* IMG_0023.JPG */; };
+		D15F25AB1F7E2C2E0017DD44 /* IMG_0149.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D15F258C1F7E2C2E0017DD44 /* IMG_0149.JPG */; };
+		D15F25AC1F7E2C2E0017DD44 /* IMG_0151.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D15F258D1F7E2C2E0017DD44 /* IMG_0151.JPG */; };
+		D15F25AD1F7E2C2E0017DD44 /* IMG_0166.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D15F258E1F7E2C2E0017DD44 /* IMG_0166.JPG */; };
+		D15F25AE1F7E2C2E0017DD44 /* pic_default.png in Resources */ = {isa = PBXBuildFile; fileRef = D15F258F1F7E2C2E0017DD44 /* pic_default.png */; };
+		D15F25AF1F7E2C2E0017DD44 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D15F25901F7E2C2E0017DD44 /* star@2x.png */; };
+		D15F25CB1F7E2E660017DD44 /* CarouselViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F25CA1F7E2E660017DD44 /* CarouselViewManager.m */; };
+		D15F25CF1F7E32E30017DD44 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F25CE1F7E32E30017DD44 /* UIColor+Addition.m */; };
 		D1DBBCCB1F7CEE8700C8F421 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DBBCCA1F7CEE8700C8F421 /* RootViewController.m */; };
 		D1F05A731F7BB41C0048ABF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F05A721F7BB41C0048ABF2 /* main.m */; };
 		D1F05A761F7BB41C0048ABF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F05A751F7BB41C0048ABF2 /* AppDelegate.m */; };
@@ -44,6 +57,24 @@
 		90E9D0B1AA73C9D30E5A0510 /* Pods-ReactUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactUITests/Pods-ReactUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A04A50D036721EC8C51D3659 /* Pods_ReactTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4048B042CB2A852F05F128E /* Pods_React.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_React.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15F257A1F7E22130017DD44 /* NativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeViewController.h; sourceTree = "<group>"; };
+		D15F257B1F7E22130017DD44 /* NativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeViewController.m; sourceTree = "<group>"; };
+		D15F257D1F7E22240017DD44 /* ReactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactViewController.h; sourceTree = "<group>"; };
+		D15F257E1F7E22240017DD44 /* ReactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactViewController.m; sourceTree = "<group>"; };
+		D15F25851F7E26CC0017DD44 /* YHCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHCarouselView.h; sourceTree = "<group>"; };
+		D15F25861F7E26CC0017DD44 /* YHCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHCarouselView.m; sourceTree = "<group>"; };
+		D15F25891F7E2C2E0017DD44 /* IMG_0010.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0010.JPG; sourceTree = "<group>"; };
+		D15F258A1F7E2C2E0017DD44 /* IMG_0021.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0021.JPG; sourceTree = "<group>"; };
+		D15F258B1F7E2C2E0017DD44 /* IMG_0023.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0023.JPG; sourceTree = "<group>"; };
+		D15F258C1F7E2C2E0017DD44 /* IMG_0149.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0149.JPG; sourceTree = "<group>"; };
+		D15F258D1F7E2C2E0017DD44 /* IMG_0151.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0151.JPG; sourceTree = "<group>"; };
+		D15F258E1F7E2C2E0017DD44 /* IMG_0166.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0166.JPG; sourceTree = "<group>"; };
+		D15F258F1F7E2C2E0017DD44 /* pic_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic_default.png; sourceTree = "<group>"; };
+		D15F25901F7E2C2E0017DD44 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		D15F25C91F7E2E660017DD44 /* CarouselViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselViewManager.h; sourceTree = "<group>"; };
+		D15F25CA1F7E2E660017DD44 /* CarouselViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselViewManager.m; sourceTree = "<group>"; };
+		D15F25CD1F7E32E30017DD44 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		D15F25CE1F7E32E30017DD44 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
 		D1DBBCC91F7CEE8700C8F421 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		D1DBBCCA1F7CEE8700C8F421 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		D1F05A6E1F7BB41C0048ABF2 /* React.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = React.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +145,56 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D15F25781F7E206E0017DD44 /* react-native */ = {
+			isa = PBXGroup;
+			children = (
+				D15F25791F7E20900017DD44 /* module */,
+			);
+			path = "react-native";
+			sourceTree = "<group>";
+		};
+		D15F25791F7E20900017DD44 /* module */ = {
+			isa = PBXGroup;
+			children = (
+				D15F25C91F7E2E660017DD44 /* CarouselViewManager.h */,
+				D15F25CA1F7E2E660017DD44 /* CarouselViewManager.m */,
+			);
+			path = module;
+			sourceTree = "<group>";
+		};
+		D15F25841F7E26CC0017DD44 /* CarouselImage */ = {
+			isa = PBXGroup;
+			children = (
+				D15F25851F7E26CC0017DD44 /* YHCarouselView.h */,
+				D15F25861F7E26CC0017DD44 /* YHCarouselView.m */,
+			);
+			path = CarouselImage;
+			sourceTree = "<group>";
+		};
+		D15F25881F7E2C2E0017DD44 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D15F25891F7E2C2E0017DD44 /* IMG_0010.JPG */,
+				D15F258A1F7E2C2E0017DD44 /* IMG_0021.JPG */,
+				D15F258B1F7E2C2E0017DD44 /* IMG_0023.JPG */,
+				D15F258C1F7E2C2E0017DD44 /* IMG_0149.JPG */,
+				D15F258D1F7E2C2E0017DD44 /* IMG_0151.JPG */,
+				D15F258E1F7E2C2E0017DD44 /* IMG_0166.JPG */,
+				D15F258F1F7E2C2E0017DD44 /* pic_default.png */,
+				D15F25901F7E2C2E0017DD44 /* star@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D15F25CC1F7E32BD0017DD44 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D15F25CD1F7E32E30017DD44 /* UIColor+Addition.h */,
+				D15F25CE1F7E32E30017DD44 /* UIColor+Addition.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		D1F05A651F7BB41C0048ABF2 = {
 			isa = PBXGroup;
 			children = (
@@ -139,10 +220,18 @@
 		D1F05A701F7BB41C0048ABF2 /* React */ = {
 			isa = PBXGroup;
 			children = (
+				D15F25CC1F7E32BD0017DD44 /* Util */,
+				D15F25881F7E2C2E0017DD44 /* Images */,
+				D15F25841F7E26CC0017DD44 /* CarouselImage */,
+				D15F25781F7E206E0017DD44 /* react-native */,
 				D1F05A741F7BB41C0048ABF2 /* AppDelegate.h */,
 				D1F05A751F7BB41C0048ABF2 /* AppDelegate.m */,
 				D1DBBCC91F7CEE8700C8F421 /* RootViewController.h */,
 				D1DBBCCA1F7CEE8700C8F421 /* RootViewController.m */,
+				D15F257D1F7E22240017DD44 /* ReactViewController.h */,
+				D15F257E1F7E22240017DD44 /* ReactViewController.m */,
+				D15F257A1F7E22130017DD44 /* NativeViewController.h */,
+				D15F257B1F7E22130017DD44 /* NativeViewController.m */,
 				D1F05A7D1F7BB41C0048ABF2 /* Assets.xcassets */,
 				D1F05A7F1F7BB41C0048ABF2 /* LaunchScreen.storyboard */,
 				D1F05A821F7BB41C0048ABF2 /* Info.plist */,
@@ -292,7 +381,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15F25A81F7E2C2E0017DD44 /* IMG_0010.JPG in Resources */,
 				D1F05A811F7BB41C0048ABF2 /* LaunchScreen.storyboard in Resources */,
+				D15F25AE1F7E2C2E0017DD44 /* pic_default.png in Resources */,
+				D15F25A91F7E2C2E0017DD44 /* IMG_0021.JPG in Resources */,
+				D15F25AC1F7E2C2E0017DD44 /* IMG_0151.JPG in Resources */,
+				D15F25AD1F7E2C2E0017DD44 /* IMG_0166.JPG in Resources */,
+				D15F25AF1F7E2C2E0017DD44 /* star@2x.png in Resources */,
+				D15F25AB1F7E2C2E0017DD44 /* IMG_0149.JPG in Resources */,
+				D15F25AA1F7E2C2E0017DD44 /* IMG_0023.JPG in Resources */,
 				D1F05A7E1F7BB41C0048ABF2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,8 +554,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1F05A761F7BB41C0048ABF2 /* AppDelegate.m in Sources */,
+				D15F25CF1F7E32E30017DD44 /* UIColor+Addition.m in Sources */,
+				D15F257F1F7E22240017DD44 /* ReactViewController.m in Sources */,
 				D1F05A731F7BB41C0048ABF2 /* main.m in Sources */,
+				D15F25CB1F7E2E660017DD44 /* CarouselViewManager.m in Sources */,
 				D1DBBCCB1F7CEE8700C8F421 /* RootViewController.m in Sources */,
+				D15F257C1F7E22130017DD44 /* NativeViewController.m in Sources */,
+				D15F25871F7E26CC0017DD44 /* YHCarouselView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

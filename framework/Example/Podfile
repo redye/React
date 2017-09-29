@@ -16,6 +16,8 @@ target 'React' do
   pod 'React/RCTWebSocket', :path => '../'
   pod 'React/RCTAnimation', :path => '../'
   pod 'React/DevSupport', :path => '../'
+  
+  pod 'SDWebImage', '4.0.0'
 
   
 

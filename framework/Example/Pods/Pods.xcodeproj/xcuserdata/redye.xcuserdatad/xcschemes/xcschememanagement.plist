@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Yoga.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,7 +37,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1EBE419E6ADB00C4FAAE711B1AD5340D</key>
+		<key>2E7EF937340168D57A77FAFCE025919E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2F56D0338D057CB63A10B5FFB1695A97</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -42,7 +52,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6D27C25B4FF38B2DAC696D44EC6C2399</key>
+		<key>AE5A4F558F6D546384344C630D600EFA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F35EF4EA2D61B4C733362BB6B63AE774</key>
+		<key>D8F09D05B8FE33934F0DEE0824974EB8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

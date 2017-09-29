@@ -21,6 +21,9 @@ PODS:
     - React/Core
   - React/RCTWebSocket (0.44.3):
     - React/Core
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
   - Yoga (0.44.3.React)
 
 DEPENDENCIES:
@@ -31,6 +34,7 @@ DEPENDENCIES:
   - React/RCTNetwork (from `../`)
   - React/RCTText (from `../`)
   - React/RCTWebSocket (from `../`)
+  - SDWebImage (= 4.0.0)
   - Yoga (from `../ReactCommon/yoga`)
 
 EXTERNAL SOURCES:
@@ -41,8 +45,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   React: e3d6992cbcac9350d63a344c3f35dcd0f7841c75
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   Yoga: c90474ca3ec1edba44c97b6c381f03e222a9e287
 
-PODFILE CHECKSUM: 7f1d00f6b698a1a46031247090ada093091e776b
+PODFILE CHECKSUM: c25488ec8299289c5d91fd13ea1e01a52c32143b
 
 COCOAPODS: 1.2.1
