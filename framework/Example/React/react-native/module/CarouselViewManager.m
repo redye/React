@@ -11,7 +11,7 @@
 #import "UIColor+Addition.h"
 #import "UIImageView+WebCache.h"
 
-@interface CarouselView : YHCarouselView<YHCarouselViewDelegate>
+@interface CarouselView : YHCarouselView
 
 @property (nonatomic, strong) NSString *dotColor;
 @property (nonatomic, strong) NSString *dotActiveColor;
@@ -24,15 +24,6 @@
 @end
 
 @implementation CarouselView
-
-- (instancetype)initWithFrame:(CGRect)frame {
-    self = [super initWithFrame:frame];
-    if (self) {
-        self.delegate = self;
-    }
-    
-    return self;
-}
 
 - (void)setDotColor:(NSString *)dotColor {
     _dotColor = dotColor;
@@ -58,18 +49,6 @@
     self.imageCount = urls.count;
 }
 
-#pragma mark - YHCarouselViewDelegate
-- (void)carouselView:(YHCarouselView *)carouselView didSelectedAtIndex:(NSUInteger)index {
-    if (self.onSelect) {
-        self.onSelect(@{@"index": @(index)});
-    }
-}
-
-- (void)carouselView:(YHCarouselView *)carouselView didShowAtIndex:(NSUInteger)index imageView:(UIImageView *)imageView {
-    [imageView sd_setImageWithURL:[NSURL URLWithString:[self.urls objectAtIndex:index]]
-                 placeholderImage:[UIImage imageNamed:@"pic_default"]];
-}
-
 
 @end
 
@@ -90,7 +69,20 @@ RCT_EXPORT_VIEW_PROPERTY(onSelect, RCTDirectEventBlock)
 
 - (UIView *)view {
     CarouselView *carouselView = [[CarouselView alloc] init];
+    carouselView.delegate = self;
     return carouselView;
+}
+
+#pragma mark - YHCarouselViewDelegate
+- (void)carouselView:(CarouselView *)carouselView didSelectedAtIndex:(NSUInteger)index {
+    if (carouselView.onSelect) {
+        carouselView.onSelect(@{@"index": @(index)});
+    }
+}
+
+- (void)carouselView:(CarouselView *)carouselView didShowAtIndex:(NSUInteger)index imageView:(UIImageView *)imageView {
+    [imageView sd_setImageWithURL:[NSURL URLWithString:[carouselView.urls objectAtIndex:index]]
+                 placeholderImage:[UIImage imageNamed:@"pic_default"]];
 }
 
 

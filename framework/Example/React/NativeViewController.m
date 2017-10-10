@@ -57,6 +57,7 @@
     [self.view addSubview:label];
     YHCarouselView *carouselView = [[YHCarouselView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(label.frame), self.view.bounds.size.width, 200)];
     [carouselView loadImageNames:self.imageNames];
+    carouselView.delegate = self;
     [self.view addSubview:carouselView];
     
     UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(carouselView.frame) + 30, CGRectGetWidth(self.view.frame), 30)];
@@ -73,6 +74,14 @@
 - (void)carouselView:(YHCarouselView *)carouselView didShowAtIndex:(NSUInteger)index imageView:(UIImageView *)imageView {
     NSString *url = [_imageUrls objectAtIndex:index];
     [imageView sd_setImageWithURL:[NSURL URLWithString:url] placeholderImage:[UIImage imageNamed:@"pic_default"]];
+}
+
+- (void)carouselView:(YHCarouselView *)carouselView didSelectedAtIndex:(NSUInteger)index {
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"index" message:[NSString stringWithFormat:@"index-%lu", (unsigned long)index] preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *alertAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleDefault handler:nil];
+    [alertController addAction:alertAction];
+    [self presentViewController:alertController animated:YES completion:nil];
+    
 }
 
 @end

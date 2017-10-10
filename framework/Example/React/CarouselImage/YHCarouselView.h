@@ -12,6 +12,13 @@
 @protocol YHCarouselViewDelegate <NSObject>
 
 @optional
+
+/**
+ 代理方法，选择当前图片
+
+ @param carouselView 轮播视图
+ @param index 当前图片的索引
+ */
 - (void)carouselView:(YHCarouselView *)carouselView didSelectedAtIndex:(NSUInteger)index;
 /**
  *  代理方法，当图片需要下载时需要实现这个代理方法，同事必须给 imageCount 属性赋值
