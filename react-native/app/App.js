@@ -52,6 +52,9 @@ export default class App extends PureComponent {
                     dotActiveColor='#00ff00'
                     names={this.imageNames}
                     onSelect={this._onSelect}
+                    title='title'
+                    subtitle='subtitle'
+                    ref={(c) => this._carouselView = c}
                 />
             </View>
 
@@ -62,7 +65,7 @@ export default class App extends PureComponent {
                     dotColor='#999999'
                     dotActiveColor='#ffffff'
                     urls={this.imageUrls}
-                    onSelect={this._onSelect}
+                    onSelect={this._onSelect2}
                 />
             </View>
             
@@ -72,6 +75,20 @@ export default class App extends PureComponent {
 
     _onSelect = (index) => {
         console.log('index ======>', index);
+        if (this._carouselView) {
+            this._carouselView.setNativeProps({
+                title: null
+            });
+        }
+    }
+
+    _onSelect2 = (index) => {
+        console.log('index ======>', index);
+        if (this._carouselView) {
+            this._carouselView.setNativeProps({
+                title: 'null'
+            });
+        }
     }
 }
 

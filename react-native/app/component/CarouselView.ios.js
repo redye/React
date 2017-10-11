@@ -7,7 +7,6 @@ import React, {
 
 import {
     requireNativeComponent,
-    NativeModules,
 } from 'react-native';
 import ViewPropTypes from 'ViewPropTypes';
 
@@ -24,6 +23,7 @@ export default class CarouselView extends PureComponent {
             <CarouselViewNativeComponent
                 {...this.props}
                 onSelect={this._onSelect}
+                ref="carouselView"
             />
         );
         return carouselView;
@@ -33,6 +33,10 @@ export default class CarouselView extends PureComponent {
     _onSelect = (event) => {
         let { index } = event.nativeEvent;
         this.props.onSelect && this.props.onSelect(index);
+    }
+
+    setNativeProps(nativeProps) {
+        this.refs.carouselView.setNativeProps(nativeProps);
     }
 }
 

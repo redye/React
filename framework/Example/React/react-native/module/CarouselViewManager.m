@@ -65,6 +65,31 @@ RCT_EXPORT_VIEW_PROPERTY(dotActiveColor, NSString)
 RCT_EXPORT_VIEW_PROPERTY(names, NSArray)
 RCT_EXPORT_VIEW_PROPERTY(urls, NSArray)
 RCT_EXPORT_VIEW_PROPERTY(onSelect, RCTDirectEventBlock)
+RCT_CUSTOM_VIEW_PROPERTY(title, NSString, CarouselView) {
+    UILabel *label = [view viewWithTag:1000];
+    if (!label) {
+        label = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 0, 0)];
+    }
+    label.tag = 1000;
+    label.text = (NSString *)json;
+    label.textColor = [UIColor whiteColor];
+    label.font = [UIFont systemFontOfSize:14.0];
+    [label sizeToFit];
+    [view addSubview:label];
+}
+
+RCT_CUSTOM_VIEW_PROPERTY(subtitle, NSString, CarouselView) {
+    UILabel *label = [view viewWithTag:2000];
+    if (!label) {
+        label = [[UILabel alloc] initWithFrame:CGRectMake(10, 30, 0, 0)];
+    }
+    label.tag = 2000;
+    label.text = (NSString *)json;
+    label.textColor = [UIColor redColor];
+    label.font = [UIFont systemFontOfSize:12.0];
+    [label sizeToFit];
+    [view addSubview:label];
+}
 
 
 - (UIView *)view {
